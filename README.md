@@ -9,11 +9,11 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/Marikalis/api_yatube-1
+git clone https://github.com/Marikalis/calculator
 ```
 
 ```
-cd api_yatube-1
+cd calculator
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -46,16 +46,4 @@ python3 manage.py migrate
 
 ```
 python3 manage.py runserver
-```
-
-## Документация к API:
-
-```
-http://127.0.0.1:8000/redoc/
-```
-
-Регистрация нового пользователя:
-
-```
-http://127.0.0.1:8000/api/v1/users/
 ```
